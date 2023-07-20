@@ -33,14 +33,14 @@ let number1 = []
 
 function numerosPares (N){
      for(let i = 0; i < N.length; i++){
-          if( i % 2 == 0){
-              number1.push (N)
+          if( N[i] % 2 == 0){
+              number1.push(N[i])
       }
       return number1
   }
  
 }
-console.log(number1);
+console.log(numerosPares(number));
 
 
 
