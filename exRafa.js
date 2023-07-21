@@ -25,24 +25,35 @@ console.log(soma(matriz));
 
 
 
-//4 - Escreva uma função que recebe uma matriz de números e retorna 
-//outra matriz contendo apenas os números pares da matriz original.
+//4 - Escreva uma função que recebe um array de números e retorna 
+//outro array contendo apenas os números pares da matriz original.
 
 let number = [0,1,2,3,4]
 let number1 = []
 
-function numerosPares (N){
-     for(let i = 0; i < N.length; i++){
-          if( N[i] % 2 == 0){
-              number1.push(N[i])
+function numerosPares (array){
+     for(let index = 0; index <= array.length; index++){
+          if( array[index] % 2 == 0){
+              number1.push(array[index])
       }
-      return number1
-  }
+    }
+    return number1
  
 }
 console.log(numerosPares(number));
 
 
+//Escreva uma função que recebe um array de números e retorna 
+//outro array contendo apenas os números pares da matriz original.
+// questao 4 - com filter
+
+let pares = [8,9,10,11,12]
+
+function filtro(array){
+  let numeros = pares.filter(par => par % 2 == 0)
+  console.log(numeros);
+}
+ filtro(pares)
 
 
 
@@ -58,8 +69,9 @@ function invertida(teste) {
   let newJoin = newReverse.join("");
 
   return newJoin;
+  // EXEMPLO return teste.split("").reverse().join("")
 }
-console.log(invertida("iloveu"));
+console.log(invertida("yag o"));
 
 //6- Escreva uma função que recebe um número como argumento e retorna 
 //verdadeiro se o número for um número primo efalso caso contrario
@@ -155,6 +167,20 @@ let objetos = [
 
 // 9 - Escreva uma função que recebe um número como argumento e retorna o fatorial desse número.
 
+//function(numero) 1 etapa construtiva
+//return fatorial(numero) 2 etapa logica
+let fun = 3
+function retorna(number){ //3
+  let result = 1
+  for (let multiply = 1; multiply <= number ;multiply++){ // 1º=1 /2º=2 /3º=3 /4º=4 /5º=5
+    result = result * multiply // 1º=1 /2º=2 /3º=6 /4º=24 /5º=120
+  }
+return result
+
+}
+
+console.log(retorna(8))
+
 // ex de fatorial 0! = 1
 // 1! = 1
 // 2! = 2 * 1
@@ -162,51 +188,53 @@ let objetos = [
 // 4! = 4 * 3 * 2 * 1
 // 5! = 5 * 4 * 3 * 2 * 1
 
-let fatorial = 5
-let resultado = fatorial
 
-function multiplica(fatorial) {
-  for (var i = 1; i < fatorial; i++){
-    resultado * i
-  }
-  
-}
-
-console.log(fatorial)
+// n! = (n * (n-1) * (n-2)) // 3! = 3 * 2 * 1
 
 
 
-// n = n*(n-1) * (n-2)
 
 // var fatorial = 5;
 
 // var resultado = fatorial;
 // for (var i = 1; i < fatorial; i++) {
-//     resultado *= i;
+//     resultado = resultado * i;
 // }
 // console.log(resultado);
 
 
 
-// 10 -Escreva uma função que recebe uma matriz de números e retorna a media dos valores presentes na matriz.
+// 10 -Escreva uma função que recebe um array de números e retorna a media dos valores presentes no array. (soma dos elementos do array / tamanho do array)
 
+let exemplo = [9,8,7,5,24,13]
+let exemplo2 = [5,95,15,25]
 
+function mediaDeValoresArray(array){
+  let mediaValores = array.reduce((valor1,valor2) => valor1 + valor2) / array.length
+     return mediaValores 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(mediaDeValoresArray(exemplo));
 
 
 //3-Escreva uma função que recebe uma string como argumento e retorna o número de vogais presentes
 //nessa string
+
+
+function word (string){
+   return string.split('')
+  } 
+
+console.log(word('qualquer')); 
+
+
+
+//escreva uma função que recebe uma string como argumento e retorna o número de vogais presentes
+//nessa string
+
+function word (string){
+  return string.length
+ } 
+
+console.log(word('love')); 
+
