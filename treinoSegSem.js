@@ -56,11 +56,6 @@ function dividir (){
 // 5- Crie uma variavel que receba o valor de uma string, em seguida crie um for que retorne cada elemento dessa string.
 
 
-
-
-
-
-
 // 6- Crie uma variavel, em seguida compare o valor dela utilizando o while (valor a ser comparado 20). Se o valor for menor ou igual a 20, retorne todos os valores.
 
 // 7- Crie uma variavel, em seguida compare o valor dela utilizando o while (valor a ser comparado 20). Se o valor for menor ou igual a 20, retorne o triplo de todos os valores.
@@ -79,13 +74,13 @@ function dividir (){
 var num1 = 25
 var num2 = 55
 
-function calcularMaior (num1 < num2 ){
-    if ( se num1 é menor que num2){
+// function calcularMaior (num1 < num2 ){
+//     if ( se num1 é menor que num2){
 
-    }else {
+//     }else {
 
-    }
-}
+//     }
+// }
 
 
 

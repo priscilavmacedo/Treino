@@ -1,17 +1,5 @@
-// 1 Faça uma função que calcule a quantidade de letras que tem em uma determinada string.
-// 2 Faça uma função que pegue uma string e transforme ela em maiusculo.
-// 3 Faça uma função que pegue uma frase ('João foi comprar pão') e troque a palavra Jõao por Felipe.
-// 4 Faça uma função que transforme uma string em um array ('12345')
-// 5 Faça uma função que transforme um array em uma string (['ola', 'humano']
 
-// 6 Faça uma função que pegue uma string e verifique se o elemento 'amor' esta presente nela. (Exemplo de frase= 'O amor é como um tiro nos olhos' ou 'O coração é a arma pra salvar o mundo')
-// 7 Faça uma função que pegue os elementos de um array e coloque eles de tras pra frente.
-// 8 Faça uma função que calcule a soma de dois numeros (12.2324 , 13.23432) e retorne o valor arredondado da soma.
-// 9 Faça uma função que pegue um array de numeros e coloque eles em ordem crescente.
-// 10 Faça uma função que pegue uma string e transforme ela em minusculo.
-
-
-// função que calcule a quantidade de letras que tem em uma determinada string
+//1- função que calcule a quantidade de letras que tem em uma determinada string
 
 
 function calculeNumeroDeLetras(nome1){
