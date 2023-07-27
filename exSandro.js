@@ -101,7 +101,7 @@ console.log(mostre);
     function possoIrAoBanco(diadasemana,horaAtual){
     
         let horadeBanco = (diadasemana != "segunda") && (horaAtual == 17)? 'true': 'false'
-        return horadeBanco
+            return horadeBanco
     }
     console.log(possoIrAoBanco("domingo",17));
 
@@ -114,5 +114,68 @@ console.log(mostre);
 // E o número de quilômetros que ele anda por dia (número). Com esses parâmetros avalie se essa pessoa é ou não (true / false), um filósofo Hipster. 
 
 // Tenha em mente que um filósofo Hipster é um Músico, nascido no Brasil e que gosta de andar mais de 2 quilômetros por dia.
+
+
+
+function filosofoHipster (profissao,nacionalidade,kms){
+
+// let km = 2
+// let prof = 'hipster'
+// let nacional = 'brasil'
+
+  let filosofo = (profissao == 'hipster' && nacionalidade == 'brasil' && kms == 2)? 'true':'false'
+    return filosofo
+
+    }
+console.log(filosofoHipster('hipster','brasil',2));
+
+
+
+// [11:04] Sandro Weslei Santos Goes
+
+// // Desafio 1: Extensão de Array Crie uma extensão para a classe Array que adiciona um método chamado shuffle,
+//  que embaralha os elementos do array. O método deve ser adicionado ao prototype do Array. 
+
+// Desafio 2: Validação de E-mail Crie uma função chamada validarEmail que recebe uma string como argumento 
+// e verifica se ela corresponde a um formato de e-mail válido. Adicione essa função ao prototype da classe String. 
+
+// Desafio 3: Contagem de Palavras Crie uma função chamada contarPalavras que conta o número de palavras em uma string. 
+// A função deve ser adicionada ao prototype da classe String. 
+
+
+// Desafio 4: Conversão para Moeda Crie uma função chamada paraMoeda que converte um número para uma string no formato de moeda, 
+// com separadores de milhares e símbolo do Real (R$). Adicione essa função ao prototype da classe Number. 
+// Desafio 5: Extensão de Data Crie uma extensão para a classe Date que adiciona um método chamado diaUtil,
+//  que verifica se uma determinada data é um dia útil (segunda a sexta-feira). O método deve ser adicionado ao prototype do Date.
+
+
+
+// [11:04] Sandro Weslei Santos Goes
+
+// Desafio 1: Extensão de Array Crie uma extensão para a classe Array que adiciona um método chamado shuffle, que embaralha os elementos do array. 
+
+ 
+
+// O método deve ser adicionado ao prototype do Array. Desafio 2: 
+
+// Validação de E-mail Crie uma função chamada validarEmail que recebe uma string como argumento e verifica se ela corresponde a um formato de e-mail válido. 
+
+ 
+
+// Adicione essa função ao prototype da classe String. Desafio 3: 
+// Contagem de Palavras Crie uma função chamada contarPalavras que conta o número de palavras em uma string. 
+// A função deve ser adicionada ao prototype da classe String. 
+
+ 
+
+// Desafio 4: 
+
+// Conversão para Moeda Crie uma função chamada paraMoeda que converte um número para uma string no formato de moeda, 
+// com separadores de milhares e símbolo do Real (R$). Adicione essa função ao prototype da classe Number. 
+
+
+// Desafio 5: Extensão de Data Crie uma extensão para a classe Date que adiciona um método chamado diaUtil,
+//  que verifica se uma determinada data é um dia útil (segunda a sexta-feira). O método deve ser adicionado ao prototype do Date.
+
 
 
