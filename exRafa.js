@@ -56,11 +56,6 @@ function filtro(array){
  filtro(pares)
 
 
-
-
-
-
-
 //5. Escreva uma função que recebe uma string como argumento e retorna a mesma string invertida.
 
 function invertida(teste) {
