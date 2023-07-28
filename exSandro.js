@@ -144,68 +144,41 @@ console.log(filosofoHipster('hipster','brasil',2));
         }
 
         shuflle(){
-            this.embaralhar.prototype = Math.floor(Math.random())
-                return this.embaralhar
+            const bc = []
+            for(let emb = 0;emb <= this.embaralhar.length ;emb++){
+                const random = Math.floor(Math.random() * this.embaralhar.length)
+
+                const getArray = this.embaralhar[random]
+                bc.push(getArray)
+            }
+            return bc
         }
     }
-    
-    console.log();
+    const bb = new Array([1,2,3,4,5])
+    console.log(bb.shuflle());
 
 
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Desafio 2: Validação de E-mail 
 //Crie uma função chamada validarEmail que recebe uma string como argumento 
 // e verifica se ela corresponde a um formato de e-mail válido. Adicione essa função ao prototype da classe String. 
 
-//     function validarEmail(string){
-//     //   (nao obrigatorio)@(nao obrigatorio).com
-//         validarEmail()
 
-//         let re = 
-//             return re.test(priscilaspx@hotmail.com){
-
-//             }
-
-
-
-
-// function validarEmail(string){
-//     return validarEmail.includes.@.()
-// }
-
-
-// console.log(validarEmail(''));
-// console.log(validarEmail(''));
-// console.log(validarEmail(''));
+function validarEmail (email){
+   
+    
+    return    
+}
 
 
 
 
 
 
-            
-//     }
-//         // validarEmail(){
-//         //     return this.string = string = Array.prototype(){
+const email = "sandro@gmail.com"
+console.log(email.includes("@"));
 
-//         //     }
-//         // }
-
-//         validarEmail.prototype = function (){
-//             return this.string
-//         }
-//         console.log(validarEmail());
-
-//         // Com esta função em Javascript, é possível realizar uma validação completa do formato do email utilizando Expressão Regular.
-//         // A utilização é bem simples, basta passar o email por parâmetro para a função IsEmail e função retornará True caso o email 
-//         // seja válido e False caso o formato esteja inválido.
-        
-
-// console.log(validarEmail("sadas@.coms"));
-
-
-////////////////////////////////////////////////////////////////////////
 
 
 // Desafio 3: Contagem de Palavras
