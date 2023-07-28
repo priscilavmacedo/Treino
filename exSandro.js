@@ -148,10 +148,9 @@ console.log(filosofoHipster('hipster','brasil',2));
                 return this.embaralhar
         }
     }
+    
+    console.log();
 
-    const Array1 = new Array('')
-      
-    console.log(Array1);
 
 
 
