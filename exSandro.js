@@ -154,11 +154,6 @@ console.log(filosofoHipster('hipster','brasil',2));
 
 
 
-
-
-
-
-
 // Desafio 2: Validação de E-mail 
 //Crie uma função chamada validarEmail que recebe uma string como argumento 
 // e verifica se ela corresponde a um formato de e-mail válido. Adicione essa função ao prototype da classe String. 
