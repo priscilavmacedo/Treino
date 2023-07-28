@@ -148,14 +148,10 @@ console.log(filosofoHipster('hipster','brasil',2));
                 return this.embaralhar
         }
     }
-    
-    console.log();
 
-
-
-
-
-
+    const Array1 = new Array('')
+      
+    console.log(Array1);
 
 
 
@@ -163,83 +159,114 @@ console.log(filosofoHipster('hipster','brasil',2));
 //Crie uma função chamada validarEmail que recebe uma string como argumento 
 // e verifica se ela corresponde a um formato de e-mail válido. Adicione essa função ao prototype da classe String. 
 
-    function validarEmail(string){
-    //   (nao obrigatorio)@(nao obrigatorio).com
-        validarEmail@find = 
+//     function validarEmail(string){
+//     //   (nao obrigatorio)@(nao obrigatorio).com
+//         validarEmail()
 
-        let re = 
-            return re.test(priscilaspx@hotmail.com){
+//         let re = 
+//             return re.test(priscilaspx@hotmail.com){
 
-            }
-console.log(validarEmail(''));
-console.log(validarEmail(''));
-console.log(validarEmail(''));
+//             }
+
+
+
+
+// function validarEmail(string){
+//     return validarEmail.includes.@.()
+// }
+
+
+// console.log(validarEmail(''));
+// console.log(validarEmail(''));
+// console.log(validarEmail(''));
+
+
+
+
+
 
             
-    }
-        // validarEmail(){
-        //     return this.string = string = Array.prototype(){
+//     }
+//         // validarEmail(){
+//         //     return this.string = string = Array.prototype(){
 
-        //     }
-        // }
+//         //     }
+//         // }
 
-        validarEmail.prototype = function (){
-            return this.string
-        }
-        console.log(validarEmail());
+//         validarEmail.prototype = function (){
+//             return this.string
+//         }
+//         console.log(validarEmail());
 
-        // Com esta função em Javascript, é possível realizar uma validação completa do formato do email utilizando Expressão Regular.
-        // A utilização é bem simples, basta passar o email por parâmetro para a função IsEmail e função retornará True caso o email 
-        // seja válido e False caso o formato esteja inválido.
+//         // Com esta função em Javascript, é possível realizar uma validação completa do formato do email utilizando Expressão Regular.
+//         // A utilização é bem simples, basta passar o email por parâmetro para a função IsEmail e função retornará True caso o email 
+//         // seja válido e False caso o formato esteja inválido.
         
 
-console.log(validarEmail("sadas@.coms"));
+// console.log(validarEmail("sadas@.coms"));
 
 
+////////////////////////////////////////////////////////////////////////
 
 
+// Desafio 3: Contagem de Palavras
 
-
-
-
-
-// Desafio 3: Contagem de Palavras Crie uma função chamada contarPalavras que conta o número de palavras em uma string. 
+//Crie uma função chamada contarPalavras que conta o número de palavras em uma string. 
 // A função deve ser adicionada ao prototype da classe String. 
 
+function contarPalavras(string){    
+     return string.length
+   
+}
+console.log(contarPalavras('priscila'));
 
-// Desafio 4: Conversão para Moeda Crie uma função chamada paraMoeda que converte um número para uma string no formato de moeda, 
-// com separadores de milhares e símbolo do Real (R$). Adicione essa função ao prototype da classe Number. 
-// Desafio 5: Extensão de Data Crie uma extensão para a classe Date que adiciona um método chamado diaUtil,
-//  que verifica se uma determinada data é um dia útil (segunda a sexta-feira). O método deve ser adicionado ao prototype do Date.
 
 
-
-// [11:04] Sandro Weslei Santos Goes
-
-// Desafio 1: Extensão de Array Crie uma extensão para a classe Array que adiciona um método chamado shuffle, que embaralha os elementos do array. 
-
- 
-
-// O método deve ser adicionado ao prototype do Array. Desafio 2: 
-
-// Validação de E-mail Crie uma função chamada validarEmail que recebe uma string como argumento e verifica se ela corresponde a um formato de e-mail válido. 
-
- 
-
-// Adicione essa função ao prototype da classe String. Desafio 3: 
-// Contagem de Palavras Crie uma função chamada contarPalavras que conta o número de palavras em uma string. 
-// A função deve ser adicionada ao prototype da classe String. 
-
- 
-
-// Desafio 4: 
-
-// Conversão para Moeda Crie uma função chamada paraMoeda que converte um número para uma string no formato de moeda, 
+// Desafio 4: Conversão para Moeda 
+//Crie uma função chamada paraMoeda que converte um número para uma string no formato de moeda, 
 // com separadores de milhares e símbolo do Real (R$). Adicione essa função ao prototype da classe Number. 
 
+const moeda = 25.0
 
-// Desafio 5: Extensão de Data Crie uma extensão para a classe Date que adiciona um método chamado diaUtil,
+function paraMoeda(conversor){
+
+      return conversor.replace
+       .replace('')
+    }
+
+    console.log(moeda.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'}));
+//fazendo alguns testes....
+
+
+
+
+
+
+// Desafio 5: Extensão de Data
+// Crie uma extensão para a classe Date que adiciona um método chamado diaUtil,
 //  que verifica se uma determinada data é um dia útil (segunda a sexta-feira). O método deve ser adicionado ao prototype do Date.
 
+class Date{
+    constructor(verificar){
+        this.verificar = verificar
+        Date.prototype.mydate = function(){
+            
+        }
+    }
+
+    diaUtil(){
+
+    }
+
+    }  
+
+const Date1 = new Date('seg','ter','qua')
+
+console.log(Date1);
+
+
+
+
+ 
 
 
