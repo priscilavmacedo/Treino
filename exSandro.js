@@ -158,17 +158,10 @@ console.log(filosofoHipster('hipster','brasil',2));
     console.log(bb.shuflle());
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////
+//Outro Jeito.
 
-// Desafio 2: Validação de E-mail 
-//Crie uma função chamada validarEmail que recebe uma string como argumento 
-// e verifica se ela corresponde a um formato de e-mail válido. Adicione essa função ao prototype da classe String. 
+Array.prototype.shuflle = function(){
 
-
-function validarEmail (email){
-   
-    
-    return    
 }
 
 
@@ -176,8 +169,29 @@ function validarEmail (email){
 
 
 
-const email = "sandro@gmail.com"
-console.log(email.includes("@"));
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Desafio 2: Validação de E-mail 
+//Crie uma função chamada validarEmail que recebe uma string como argumento 
+// e verifica se ela corresponde a um formato de e-mail válido. Adicione essa função ao prototype da classe String. 
+
+function validarEmail (emailx){
+     return emailx.includes('@')
+}
+
+console.log(validarEmail("priscilaspx@gmail.com"));
+
+
+
+// const email = "sandro@gmail.com"
+// console.log(email.includes("@"));
 
 
 
@@ -198,45 +212,18 @@ console.log(contarPalavras('priscila'));
 //Crie uma função chamada paraMoeda que converte um número para uma string no formato de moeda, 
 // com separadores de milhares e símbolo do Real (R$). Adicione essa função ao prototype da classe Number. 
 
-const moeda = 25.0
-
 function paraMoeda(conversor){
-
-      return conversor.replace
-       .replace('')
-    }
-
-    console.log(moeda.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'}));
-//fazendo alguns testes....
+    return conversor.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'})
+}
+console.log(paraMoeda(25));
 
 
 
-
-
+   
 
 // Desafio 5: Extensão de Data
 // Crie uma extensão para a classe Date que adiciona um método chamado diaUtil,
 //  que verifica se uma determinada data é um dia útil (segunda a sexta-feira). O método deve ser adicionado ao prototype do Date.
-
-class Date{
-    constructor(verificar){
-        this.verificar = verificar
-        Date.prototype.mydate = function(){
-            
-        }
-    }
-
-    diaUtil(){
-
-    }
-
-    }  
-
-const Date1 = new Date('seg','ter','qua')
-
-console.log(Date1);
-
-
 
 
  
