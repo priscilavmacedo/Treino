@@ -91,3 +91,7 @@ var arrayNumber = [1,2,3]
 // .indexOf voce escolhe o elemento que quer remover
 // let index = list.indexOf("escorregador")
 // console.log(index);
+
+
+var nome = "bruno"
+
