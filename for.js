@@ -90,18 +90,24 @@ console.log(somar5MoedasDe25Centavos());
 
 // Escreva uma função somarMoedasDe25(quantidadeDeMoedas), que toma como parâmetro um valor numérico e retorna a soma das moedas de 25 centavos.
 
+//Obs:
+//No for preciso rodar a quantidade de moedas para fazer o loop da soma
+//65 
 
 function somarMoedasDe25(quantidadeDeMoedas){
   let soma = 0
-  quantidadeDeMoedas = quantidadeDeMoedas + soma
-  for(i=0; i < 4 ;i++){
-    
-
-  }
-return quantidadeDeMoedas
+for(i=0; i < quantidadeDeMoedas;i++){                                   
+    soma = soma + 0.25  
+        console.log(soma);
+      }
+return soma
 
 }
-console.log (somarMoedasDe25(0.25+4))
+console.log (somarMoedasDe25(3))
+console.log(somarMoedasDe25(10));
+
+
+
 
 //qual a diferença do return dentro e fora do for?
 
@@ -112,20 +118,20 @@ console.log (somarMoedasDe25(0.25+4))
 
 // Desta forma: 0 + 2 + 4 + 6 + 8 + 10 + ..... X
 
-//criar uma variavel fora
 
 
 function somaDosPares(X){
   let soma = 0
   for (let index = 0; index < X.length ; index++) {
-      if ( x [index] % 2 == 0){
-        soma = soma + index
+      if ( X [index] % 2 == 0){
+        console.log(X[index]);
+        soma = soma + X[index]
       }
-      return soma
-     }
+    }
+    return soma
 }
-console.log(somaDosPares(2));
-
+console.log(somaDosPares([2,5,1,8,3,4]));
+//4+1+1=6
 
 
 // Exercício 08: ||
@@ -133,11 +139,36 @@ console.log(somaDosPares(2));
 // Defina a função chamada somatoria, que receba como parâmetro um número e retorne a soma dos números antecessores a ele.
 
 
+function somatoria(numero){
+  let c = 0 
+   for(let i = 0 ;i<= numero ;i++){
+    c = c + i
+  }
+  return c
+}
+
+console.log(somatoria(5));
+
+
 // Exercício 09: ||
 
 // Crie uma função chamada caloriasDeTrote(), que recebe por parâmetro o número de voltas representado por um valor numérico e retorne 
 // a quantidade de calorias que será consumida.
 
+function caloriasDeTrote(numeroVoltas){
+  let caloriasConsumida = 0
+  let caloria = 4
+    for(let i = 0;i < numeroVoltas;i++){
+      caloriasConsumida = caloriasConsumida + (caloria*i)
+
+      console.log(i);
+      
+
+    }
+    return caloriasConsumida
+}
+
+console.log(caloriasDeTrote(2));
 
 
 
