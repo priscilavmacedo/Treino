@@ -41,6 +41,25 @@ console.log(solucao(precos));
 // CASO SEJA ValidityState, IMPRIMA COMVOCAÇAO VALIDA
 
 
+//array de strings 
+
+let itens = ['faca','poder','escudo','revolver']
+
+let itemNecessario1 = 'faca'
+let itemNecessario2 = 'poder'
+let itemNecessario3 = 'manipular'
+
+function itensColetados(item){
+    return item.includes('faca')
+}
+
+console.log(itensColetados(itens));
+
+
+
+
+
+
 
 
 
